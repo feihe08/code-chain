@@ -1,0 +1,43 @@
+{
+  "name": "react-starter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "draft-js": "^0.10.5",
+    "is-hotkey": "^0.1.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-app-rewired": "^1.4.1",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "redux": "^3.7.2",
+    "slate": "^0.33.4",
+    "slate-react": "^0.12.4"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom"
+  },
+  "devDependencies": {
+    "antd": "^3.4.0",
+    "antd-mobile": "^2.1.8",
+    "babel-plugin-import": "^1.7.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0",
+    "node-sass": "^4.8.3",
+    "prettier": "^1.10.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.7"
+  }
+}
